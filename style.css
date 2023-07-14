@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1717;
+}
+ul {
+    list-style-type: none; /* it remvoes bullet*/
+    margin: 0; /* stick to margin as 0 relative to my piture*/
+    padding:0px; /*unordered list gets spaced equally all sides */ 
+    background-color: #333; /*add colour*/ 
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block; /*the anchor gets block element from inline*/
+    color: aliceblue; /*text color*/
+    text-align: center;/*optional*/
+    padding: 14px 16px; /*sepatres space up right down left about this */
+    text-decoration: none; /*removes underline*/
+}
+.main {
+    padding: 100px; /*combines both image n text area and pads for 100px*/
+}
+.main1 {
+    display: inline; /*inline to consider in same line */
+    position: relative;
+}
+.textcontent {
+    display: inline-block; /*inline-block to consider in same line */
+    overflow: hidden; 
+    color: white;
+    text-align: left;
+    padding-left:200px;
+    padding-bottom: 70px;
+}
+.button {
+    background-color: #4CAF50;
+}
+
+
